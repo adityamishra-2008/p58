@@ -1,7 +1,11 @@
 body{
   text-align:center;
- background-image: linear-gradient(#3ffba7 0%,#fc46d9 100%);
+  background-image: linear-gradient(#3ffba7 0%,#fc46d9 100%)
+
 }
+html{
+    scroll-behavior: smooth;}
+
 #fh{
   width:25%;
   border-radius:50%;
@@ -11,6 +15,9 @@ body{
     height: 10px;
     width: 150px;
 }
+
+    
+
 .menu{
     list-style:none;
     font-family: cursive;
@@ -38,5 +45,11 @@ font-family:cursive;
 }
 .Links:hover{
    color:white;
+}
+#my{
+    width: 15%;
+    height: 50%;
+ border-radius:25%;
+    
 }
  

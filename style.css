@@ -13,45 +13,48 @@ body {
     border-radius: 50%;
 
 }
-
 .line{
-    width: 150px!important;
-    height: 20px!important;
+    
+    height:6px;
+    background-color: black;
+    width:100px;
+    margin: 8px auto;
+
+    
 }
 
 
 
-.menu {
-    list-style: none;
-    font-family: cursive;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    z-index: 10;
-    cursor: pointer;
+.menu{
+list-style:none;
+    position:fixed;
+    top: 0px;
+  
+    z-index:10;
 
+    background-color: cyan;
+    width: 100%;
+    margin-top: 0px;  
 }
 
-.links {
-    float: left;
+.links{
 
-    color: black;
+display: inline;
+color:black;
 
-    padding-top: 5px;
-    padding-left: 9px;
+ padding-left: 33px;
 
-    padding-right: 9px;
+padding-right: 25px;
 
-    padding-bottom: 5px;
-
-    font-family: cursive;
+font-family:cursive;
 
     font-size: 20px
 }
-
-.Links:hover {
-    color: white;
+.Links:hover{
+   color:snow;
+    font-size:25px;
 }
+
 
 #my {
     width: 15%;
@@ -84,7 +87,7 @@ h1{
     transform: scale(.9);
 }
 p{
-    font-size: 50px;
+    font-size: 30px;
 }
 #welcome{
 
@@ -98,3 +101,17 @@ p{
     height:100%;
  
 }
+.contact1 h3 {
+    display: inline;
+    font-size: 25px
+}
+.contact1 a{
+    color:blue;
+    text-shadow:none;
+    
+}
+#contact{
+    background-color: aqua;
+    
+}
+
